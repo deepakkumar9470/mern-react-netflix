@@ -1,0 +1,91 @@
+.navbar{
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    background: linear-gradient(to top , transparent 0%, rgb(0,0,0,0.3), 50%); 
+
+    &.scrolled{
+        background-color: var(--main-color);
+    }
+    .container{
+        height: 70px;
+        padding:  0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+
+        .left{
+            display: flex;
+            align-items: center;
+            img{
+                height: 60px;
+                margin-right: 40px;
+                cursor: pointer;
+            }
+            span{
+                text-transform:uppercase;
+                margin-right: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: #d63031;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+        }
+        .right{
+            display: flex;
+                align-items: center;
+            .icon{
+                margin: 0px 15px;
+            }    
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+           .profile{
+              
+               .options{
+                   display: none;
+                   border-radius: 5px;
+                   background-color: var(--main-color);
+               }
+               &:hover{
+                   .options{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    transition: all 0.3s ease;
+                   }
+                    
+               }
+               span{
+                   padding: 10px;
+                   cursor: pointer;
+               }
+           } 
+            
+        } 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+   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
+    

@@ -1,0 +1,44 @@
+.list{
+   width: 100%;
+   margin-top: 10px;
+
+    .listTitle{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 50px;
+    }
+
+  .wrapper{
+      position: relative;
+      .arrowslider{
+          width: 50px;
+          height: 100%;
+          color: #fff;
+          background:rgba(22,22,22,0.5);
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          z-index: 99;
+          margin: auto;
+          cursor: pointer;
+          &.left{
+              left: 0;
+          }
+          &.right{
+              right: 0;
+          }
+
+      }
+     .container{
+         width: max-content;
+         margin-left: 50px;
+         display: flex;
+         margin-top: 10px;
+         transform: translateX(0px);
+         transition: all 1s ease;
+     }
+  }
+    
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "NODE-AUTH",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "nodemailer": "^6.6.2",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}
